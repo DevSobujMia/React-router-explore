@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <div className="max-w-6xl mx-auto my-10 p-5">
+            <div className="max-w-[1170px] mx-auto p-5">
             {
                 navigate.state === "loading" ?
                 <p>Loading...</p> :
