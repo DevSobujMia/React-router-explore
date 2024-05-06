@@ -6,3 +6,7 @@ html {
   background-color: rgb(91, 117, 128);
   color: white;
 }
+
+nav a.active {
+  color: red;
+}
