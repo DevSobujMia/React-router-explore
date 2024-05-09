@@ -25,7 +25,7 @@ const Form = () => {
         setName(e.target.value);
     }
 
-    const handlePasswordChang = e =>{
+    const handlePasswordChange = e =>{
         setPassowrd(e.target.value);
     }
 
@@ -41,7 +41,7 @@ const Form = () => {
                 <br />
                 <input onChange={handleEmailChange} className={inputClassName} type="email" name="email" placeholder="Your Email" />
                 <br />
-                <input onChange={handlePasswordChang} className={inputClassName} type="password" name="password" placeholder="Password" />
+                <input onChange={handlePasswordChange} className={inputClassName} type="password" name="password" placeholder="Password" />
                 <br />
                 <input className="bg-gray-800 m-2 px-4 py-2 rounded cursor-pointer" type="submit" value="Submit" />
                 {
